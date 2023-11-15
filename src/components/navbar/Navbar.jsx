@@ -39,8 +39,8 @@ const [toggleMenu, setToggleMenu]=useState(false);
       <div className='gpt3__navbar-menu'>
         {
           toggleMenu ?
-           <RiCloseLine color='#fffff' size={27} onClick={()=>setToggleMenu(false)}/> 
-          : <RiMenu3Line color='#fffff' size={27} onClick={()=>setToggleMenu(true)}/>
+           <RiCloseLine color='#fff' size={27} onClick={()=>setToggleMenu(false)}/> 
+          : <RiMenu3Line color= '#fff' size={27} onClick={()=>setToggleMenu(true)}/>
         }
         {
           toggleMenu && (
