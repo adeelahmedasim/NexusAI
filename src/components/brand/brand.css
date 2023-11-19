@@ -1,11 +1,11 @@
-.gpt3__brand{
+.nexuAI__brand{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.gpt3__brand div{
+.nexuAI__brand div{
     flex: 1;
     max-width: 150px;
     max-height: 120px;

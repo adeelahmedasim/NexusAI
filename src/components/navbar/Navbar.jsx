@@ -9,12 +9,12 @@ const Menu= ()=>{
   return(
   <>
          <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">What is Chatgpt</a></p>
-          <p><a href="#possibility">Open AI</a></p>
+          <p><a href="#wgpt3">What is NexusAI</a></p>
+          <p><a href="#possibility">Nexus AI</a></p>
           <p><a href="#features">Case Studies</a></p>
           <p><a href="#blog">Library</a></p>
   </>
-  )
+  )     
 }
 
 export default function Navbar() {
@@ -22,21 +22,21 @@ export default function Navbar() {
 const [toggleMenu, setToggleMenu]=useState(false);
 
   return (
-    <div className='gpt3__navbar'>
-      <div className='gpt3__navbar-links'>
-        <div className='gpt3__navbar-links-logo'>
+    <nav className='nexuAI__navbar'>
+      <div className='nexuAI__navbar-links'>
+        <div className='nexuAI__navbar-links-logo'>
           <img src={logo} alt="logo" />
         </div>
 
-        <div className='gpt3__navbar-links_container'>
+        <div className='nexuAI__navbar-links_container'>
         <Menu />
         </div>
       </div>
-      <div className='gpt3__navbar-sign'>
+      <div className='nexuAI__navbar-sign'>
         <p><a href="/">Sign in </a></p>
         <button type='button'>Sign up</button>
       </div>
-      <div className='gpt3__navbar-menu'>
+      <div className='nexuAI__navbar-menu'>
         {
           toggleMenu ?
            <RiCloseLine color='#fff' size={27} onClick={()=>setToggleMenu(false)}/> 
@@ -44,11 +44,11 @@ const [toggleMenu, setToggleMenu]=useState(false);
         }
         {
           toggleMenu && (
-            <div className='gpt3__navbar-menu_container scale-up-center'>
-              <div className='gpt3__navbar-menu_container-links'>
+            <div className='nexuAI__navbar-menu_container scale-up-center'>
+              <div className='nexuAI__navbar-menu_container-links'>
                 <Menu/>
               </div>
-              <div className='gpt3__navbar-menu_container-sign'>
+              <div className='nexuAI__navbar-menu_container-sign'>
         <p><a href="/">Sign in </a></p>
         <button type='button'>Sign up</button>
       </div>
@@ -56,6 +56,6 @@ const [toggleMenu, setToggleMenu]=useState(false);
           )
         }
       </div>
-    </div>
+    </nav>
   )
 }

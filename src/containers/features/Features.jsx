@@ -24,17 +24,17 @@ const featuresData=[
 ]
 export default function Features() {
   return (
-    <div className='gpt3__features section__padding' id='features'> 
-      <div className='gpt3__features-heading'>
+    <section className='nexuAI__features section__padding' id='features'> 
+      <title className='nexuAI__features-heading'>
         <h1 className='gradient__text'>The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.</h1>
         <p>Request Early Access to Get Started</p>
-      </div>
-        <div className='gpt3__features-container'>
+      </title>
+        <article className='nexuAI__features-container'>
         {featuresData.map((item)=>{
          return <Feature   title={item.title}  text={item.text}/>
         })}
 
-        </div>
-    </div>
+        </article>
+    </section>
   )
 }

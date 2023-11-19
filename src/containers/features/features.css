@@ -1,11 +1,11 @@
-.gpt3__features{
+.nexuAI__features{
     width: 100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.gpt3__features-heading{
+.nexuAI__features-heading{
     flex:1;
     display: flex;
     justify-content: flex-start;
@@ -16,14 +16,14 @@
     margin-right: 5rem;
 }
 
-.gpt3__features-heading h1{
+.nexuAI__features-heading h1{
     font-family: var(--font-family);
     font-size: 34px;
     font-weight:800 ;
     line-height: 45px ;
 }
 
-.gpt3__features-heading p{
+.nexuAI__features-heading p{
     font-family: var(--font-family);
     font-size: 16px;
     font-weight:500 ;
@@ -33,7 +33,7 @@
     margin-top: 2rem;
 }
 
-.gpt3__features-container{
+.nexuAI__features-container{
     display: flex;
     flex:1.5;
     justify-content: flex-start;
@@ -43,17 +43,17 @@
 
 
 @media screen and (max-width:900px) {
-    .gpt3__features{
+    .nexuAI__features{
         flex-direction: column;
     }
-    .gpt3__features-heading{
+    .nexuAI__features-heading{
         margin: 0 0 2rem 0;
     }
     
 }
 
 @media screen and (max-width:550px) {
-    .gpt3__features-heading h1{
+    .nexuAI__features-heading h1{
         font-size: 28px;
         line-height: 38px;
     }    
