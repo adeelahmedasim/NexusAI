@@ -20,6 +20,7 @@
 .nexuAI__navbar-links-logo img{
     height: 24.02px;
     width: 70.56px;
+    cursor: pointer;
 }
 
 .nexuAI__navbar-links_container{

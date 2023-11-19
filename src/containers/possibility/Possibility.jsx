@@ -4,7 +4,7 @@ import possibilityImage from '../../assets/possibility.png'
 
 export default function Possibility() {
   return (
-    <section className='nexusAI__possibility section__padding'>
+    <section className='nexusAI__possibility section__padding' id='possibility'>
       <div className='nexusAI__possibility-image'>
         <img src={possibilityImage} alt="Possibility" />
       </div>

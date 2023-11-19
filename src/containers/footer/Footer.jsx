@@ -5,11 +5,11 @@ import gpt3Logo from '../../assets/logo.svg'
 export default function Footer() {
   return (
     <footer className='nexusAI__footer section__padding' >
-      <title className='nexusAI__footer-heading'>
+      <div className='nexusAI__footer-heading'>
         <h1 className='gradient__text'>
         Do you want to step in to the future before others
         </h1>
-      </title>
+      </div>
 
       <div className='nexusAI__footer-button'>
         <p>Request Early Access</p>
